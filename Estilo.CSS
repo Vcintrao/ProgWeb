@@ -1,4 +1,32 @@
+h1, h2, h3, div{
+    color:wheat;
+}
+
+
 h1 {
     font-family: sans-serif;
-    color: blue;
+    font-variant: small-caps;
+    font-size: 40px;
+    background-color: teal;
+    line-height: 200%;
+    text-align: left;
+}
+body{ 
+    font-family: verdana;
+    background-color: cadetblue;
+}
+span{
+   text-decoration: underline; 
+   width: 150px;
+   height: 100px;
+   background-color: teal;
+   display: inline-block;
+   float:left;
+}
+div{
+    display: block;
+    font-family: verdana;
+    color: wheat;
+    text-align: justify;
+    width: 750px;
 }
