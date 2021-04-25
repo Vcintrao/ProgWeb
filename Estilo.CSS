@@ -37,7 +37,7 @@ body{
    padding: 4px;
 }
 .sobremim{
-    display: block;
+    display: inline-block;
     font-family: verdana;
     color: wheat;
     text-align:justify;
