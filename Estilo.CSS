@@ -37,11 +37,11 @@ body{
    padding: 4px;
 }
 .sobremim{
-    display: inline-block;
+    display: block;
     font-family: verdana;
     color: wheat;
     text-align:justify;
-    width: 1270px;
+    width: 1000px;
     height: 70%;
     margin-left: 20px;
     margin-top: 0%;
