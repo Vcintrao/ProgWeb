@@ -1,0 +1,76 @@
+div{
+    color: black;
+}
+
+h1, h2, h3{
+    color: wheat;
+}
+
+
+header {
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    background-color: teal;
+    line-height: 100%;
+    text-align: left;
+    padding: 2px;
+}
+body{ 
+    font-family: verdana;
+    font-size: 120%;
+    margin: 2%;
+    background-color: cadetblue;
+}
+.indice{
+   text-decoration: underline; 
+   width:180px;
+   height: 180px;
+   background-color: teal;
+   display: block;
+   float: left;
+   border: solid 1px wheat;
+   margin-top: 1px;
+   margin-right: 7px;
+   margin-bottom: 7px;
+   margin-left: 1px;
+   padding: 4px;
+}
+.sobremim{
+    display: block;
+    font-family: verdana;
+    color: wheat;
+    text-align:justify;
+    width: 1270px;
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 0%;
+    margin-right: 20px;
+    margin-bottom: 0%;
+    padding: 2px;
+}
+.comida{
+    display: block;
+    background-color: teal;
+    width: 629px;
+    height: 230px;
+    float: left;
+    border: solid 1px wheat;
+    margin-top: 1px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    margin-left: 1px;
+    padding: 4px;
+}
+.viajar{
+    display: inline-block;
+    background-color: teal;
+    width: 629px;
+    height: 230px;
+    border: solid 1px wheat;
+    margin-top: 1px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    margin-left: 1px;
+    padding: 4px;
+}
