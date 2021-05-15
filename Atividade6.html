@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Atividade 6 </title>
+        <link rel="stylesheet" type="text/css" href="Estilo3.CSS" />
+        <script src="functions_js/js1.js"></script>
+    </head>
+    <header>
+        <h1> Vitor Cintra de Oliveira </h1>
+    </header>
+<body onload="message('LOAD')" onresize="message('RESIZE')">
+
+        <h1>Respondendo a eventos</h1>
+        <p onclick="message('CLICK')"> CLIQUE PARA INVOCAR EVENTO.</p>
+        <p id="output">Click me</p>
+        
+        <h1>Mudando o estilo</h1>
+        <p>JavaScript pode modificar o estilo</p>
+        
+        <button type="button" onclick="useInline()">Inline</button>
+        <button type="button" onclick="useBlock()">Block</button>
+        <button type="button" onclick="useNone()">None</button>
+        <button type="button" onclick="useInlineBlock()">Inline-Block</button>
+        
+        <hr/>
+        <p class="display">Modificar Propriedade CSS</p>
+        <p class="display">Modificar Propriedade CSS</p>
+        <p class="display">Modificar Propriedade CSS</p>
+        
+    <hr>
+</body>    
