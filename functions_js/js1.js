@@ -31,6 +31,6 @@ function useInlineBlock(){
 }
 
 function displayPicture(element){
-    const frame = document.getElementById("frame1");
+    const frame = document.getElementById("framevitor");
     frame.style.backgroundImage="url('"+element.src+"')";
 }
