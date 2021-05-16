@@ -22,3 +22,10 @@ function useNone(){
         array[i].style.display = "none";
     }
 }
+
+function useInlineBlock(){
+    const array = document.getElementsByClassName("display");
+    for (var i = 0; i < array.length; i++){
+        array[i].style.display = "Inline Bolck";
+    }
+}
