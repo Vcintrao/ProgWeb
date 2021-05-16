@@ -26,6 +26,6 @@ function useNone(){
 function useInlineBlock(){
     const array = document.getElementsByClassName("display");
     for (var i = 0; i < array.length; i++){
-        array[i].style.display = "Inline Bolck";
+        array[i].style.display = "Inline Block";
     }
 }
