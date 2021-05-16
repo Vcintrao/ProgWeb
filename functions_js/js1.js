@@ -29,3 +29,8 @@ function useInlineBlock(){
         array[i].style.display = "Inline-Block";
     }
 }
+
+function displayPicture(element){
+    const frame = document.getElementById("frame1");
+    frame.style.backgroundImage='"+element.src+"';
+}

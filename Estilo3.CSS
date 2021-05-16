@@ -5,3 +5,16 @@
     height: 100px;
     font-size: large;
 }
+
+.frame1 {
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+  }
