@@ -32,5 +32,5 @@ function useInlineBlock(){
 
 function displayPicture(element){
     const frame = document.getElementById("frame1");
-    frame.style.backgroundImage="element";
+    frame.style.backgroundImage=".res";
 }
