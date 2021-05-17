@@ -27,6 +27,17 @@ h1, h2, h3{
     font-size: large;
 }
 
+.apresentação{
+    display: block;
+    background-color: teal;
+    width: 629px;
+    height: 230px;
+    float: left;
+    border: solid 1px wheat;
+    margin: 1px 7px 7px 1px;
+    padding: 4px;
+}
+
 .frameazul {
     text-align: center;
     background-color: cornflowerblue;
