@@ -1,11 +1,29 @@
 function displayPicture(element){
     const frame = document.getElementById("framevitor");
     frame.style.backgroundImage="url('"+element.src+"')";
+
+    var txt = document.getElementById("textofoto");
+
+    if(element.id == "imgVitorEu") {
+        txt.setAttribute('data-value', texto[0]);
+    }
+    else if(element.id == "imgVitorTusca") {
+        txt.setAttribute('data-value', texto[1]);
+    }
+    else if(element.id == "imgVitorVm") {
+        txt.setAttribute('data-value', texto[2]);
+    }
+    else {
+        txt.setAttribute('data-value', "");
+    }
 }
 
 function undisplayPicture(){
     const frame = document.getElementById("framevitor");
     frame.style.backgroundImage="none";
+
+    var txt = document.getElementById("textofoto");
+    txt.setAttribute('data-value', "");
 }
 
 const texto = [
