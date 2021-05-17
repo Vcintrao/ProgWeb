@@ -33,7 +33,7 @@ h1, h2, h3{
     height: 400px;
     width: 500px;
     background-size: cover;
-    transition-duration: .25s;
+    transition-duration: .5s;
     transition-delay: .1s;    
 }
   
