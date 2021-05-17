@@ -30,11 +30,10 @@ h1, h2, h3{
 .apresentação{
     display: block;
     background-color: teal;
-    width: 629px;
-    height: 230px;
+    width: fit-content;
+    height: fit-content;
     float: left;
     border: solid 1px wheat;
-    margin: 1px 7px 7px 1px;
     padding: 4px;
 }
 
