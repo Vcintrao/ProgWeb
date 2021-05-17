@@ -28,7 +28,7 @@ h1, h2, h3{
 }
 
 .introvitor{
-    display: block;
+    display: inline-block;
     border-bottom: solid 1px wheat;
 }
 
