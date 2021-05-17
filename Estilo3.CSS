@@ -60,7 +60,7 @@ img {
 }
 
 .descriçãovitor{
-    display: inline;
+    float: inline-end;
     background-color: cornflowerblue;
     height: 400px;
     width: 500px;
