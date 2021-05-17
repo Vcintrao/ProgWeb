@@ -33,7 +33,7 @@ h1, h2, h3{
 }
 
 .introrafa{
-    display: block;
+    display: inline;
     border-bottom: solid 1px wheat;
 }
 
@@ -48,7 +48,7 @@ h1, h2, h3{
 }
 
 .rafa{
-    display: block;
+    display: inline;
     width: fit-content;
     height: fit-content;
     border: solid 1px wheat;
