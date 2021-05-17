@@ -48,6 +48,7 @@ h1, h2, h3{
 }
   
   img {
+    text-align: center;
     width: 50px;
     height: 50px;
     border: solid 1px wheat;
