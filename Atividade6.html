@@ -9,15 +9,16 @@
     <header>
         <h1>Um pouco mais sobre mim</h1>
     </header>
-<body onload="message('LOAD')">
-
+<body>
+    <section class="intro">
         <h1>Respondendo a eventos</h1>
         <p onclick="message('CLICK')"> CLIQUE PARA INVOCAR EVENTO.</p>
         <p id="output">Click me</p>
 
         <h1>Mudando o estilo</h1>
         <p>JavaScript pode modificar o estilo</p>
-        
+    </section>    
+    
         <button type="button" onclick="useInline()">Inline</button>
         <button type="button" onclick="useBlock()">Block</button>
         <button type="button" onclick="useNone()">None</button>
