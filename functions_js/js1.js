@@ -35,7 +35,7 @@ function displayPicture(element){
     frame.style.backgroundImage="url('"+element.src+"')";
 }
 
-function displayPicture(element){
-    const frame = document.getElementById("framerafa");
-    frame.style.backgroundImage="url('"+element.src+"')";
+function undisplayPicture(){
+    const frame = document.getElementById("framevitor");
+    frame.style.backgroundImage="none";
 }
