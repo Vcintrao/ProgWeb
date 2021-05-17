@@ -34,13 +34,14 @@ h1, h2, h3{
 
 .introrafa{
     display: block;
+    float: inline-start;
     border-bottom: solid 1px wheat;
 }
 
 .vitor{
     display: block;
-    width: 680px;
-    height:680px;
+    width: fit-content;
+    height:fit-content;
     float: left;
     border: solid 1px wheat;
     margin-top: 10px;
@@ -49,6 +50,7 @@ h1, h2, h3{
 
 .rafa{
     display: block;
+    float: inline-start;
     width: fit-content;
     height: fit-content;
     border: solid 1px wheat;
