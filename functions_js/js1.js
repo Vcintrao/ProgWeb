@@ -21,7 +21,7 @@ function displayPicture(element){
 function undisplayPicture(){
     const frame = document.getElementById("framevitor");
     frame.style.backgroundImage="none";
-
+    
     var txt = document.getElementById("textofoto");
     txt.setAttribute('data-value', "");
 }
