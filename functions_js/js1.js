@@ -13,6 +13,15 @@ function displayPicture(element){
     else if(element.id == "imgVitorVm") {
         txt.setAttribute('data-value', texto[2]);
     }
+    else if(element.id == "imgRafaInvocada") {
+        txt.setAttribute('data-value', texto[3]);
+    }
+    else if(element.id == "imgRafaPraia") {
+        txt.setAttribute('data-value', texto[4]);
+    }
+    else if(element.id == "imgRafaNamorado") {
+        txt.setAttribute('data-value', texto[5]);
+    }
     else {
         txt.setAttribute('data-value', "");
     }
@@ -29,6 +38,9 @@ function undisplayPicture(){
 const texto = [
     "Uma das minhas fotos favoritas, uso ela sempre que preciso fazer um perfiil novo. Foi tirada no Museu da Arte Sacra.",
     "Foto tirada no Tusca de 2018. Foi o meu primeiro Tusca e neste momento tinha encontrado meus amigos depois de muito tempo perdido.",
-    "Essa foto foi tirada quando recebi minha fantasia para o desfile do carnaval de São Paulo 2019. Desfilei pela Unidos de Vila Maria na bateria, foi incrível!"
+    "Essa foto foi tirada quando recebi minha fantasia para o desfile do carnaval de São Paulo 2019. Desfilei pela Unidos de Vila Maria na bateria, foi incrível!",
+    "Rafa fala da Invocada",
+    "Rafa fala da praia",
+    "Rafa fala do namorado"
 ]
 
