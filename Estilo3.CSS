@@ -1,3 +1,13 @@
+header {
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    background-color: teal;
+    line-height: 100%;
+    text-align: left;
+    padding: 2px;
+}
+
 .display{
     background-color: cornflowerblue;
     padding: 10px;
