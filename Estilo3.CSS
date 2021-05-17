@@ -8,6 +8,17 @@ header {
     padding: 2px;
 }
 
+body{ 
+    font-family: verdana;
+    font-size: 120%;
+    margin: 2%;
+    background-color: cadetblue;
+}
+
+h1, h2, h3{
+    color: wheat;
+}
+
 .display{
     background-color: cornflowerblue;
     padding: 10px;
