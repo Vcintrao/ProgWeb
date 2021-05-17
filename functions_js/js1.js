@@ -32,6 +32,3 @@ const texto = [
     "Essa foto foi tirada quando recebi minha fantasia para o desfile do carnaval de São Paulo 2019. Desfilei pela Unidos de Vila Maria na bateria, foi incrível!"
 ]
 
-function displayThis(element){
-    document.getElementById("texto").innerHTML = element.innerHTML;
-}
