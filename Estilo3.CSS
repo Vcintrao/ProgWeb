@@ -39,8 +39,8 @@ h1, h2, h3{
 
 .vitor{
     display: block;
-    width: fit-content;
-    height: fit-content;
+    width: 680px;
+    height:680px;
     float: left;
     border: solid 1px wheat;
     margin-top: 10px;
