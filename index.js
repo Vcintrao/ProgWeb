@@ -24,14 +24,8 @@ app.use(express.json());
     //"Vitor Cintra", "Rafa Yoko"
  //];
 
- const mensagens = [
-     {
-         title:"Civ6", quem:"Vitor"
-     },
-     {
-         title:"Clash Royale", quem:"Rafa"
-     },
- ];
+ const mensagens = 
+ [{title:"Civ6", quem:"Vitor"},{title:"Clash Royale", quem:"Rafa"},];
 
  app.get('/mensagens', function(req, res){
     // res.send(mensagens);
