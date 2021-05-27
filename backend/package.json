@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vcintrao/ProgWeb.git"
+    "url": "git+https://github.com/Vcintrao/ProgWeb/backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vcintrao/ProgWeb/issues"
+    "url": "https://github.com/Vcintrao/ProgWeb/backend/issues"
   },
   "homepage": "https://github.com/Vcintrao/ProgWeb#readme",
   "dependencies": {
