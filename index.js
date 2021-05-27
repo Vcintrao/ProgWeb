@@ -31,7 +31,7 @@ app.use(express.json());
      {
          title:"Clash Royale", quem:"Rafa"
      },
- ]
+ ];
 
  app.get('/mensagens', function(req, res){
     // res.send(mensagens);
