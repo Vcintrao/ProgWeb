@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 //Permissões
- var cors = require('cors')
+ var cors = require('cors');
  app.use(cors());
 
  //Porta que estou ouvindo
