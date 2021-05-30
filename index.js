@@ -20,7 +20,7 @@ let mensagens = [
        nome: "Vitor Cintra", apelido: "Tafei", aniversario:"26/02/1997", materia_favorita:"física 3", jogo:"Civilization 6"
     },
     {
-        nome: "Rafaela Yoko", apelido: "Rafa", aniversario:"01/11/1999", materia_favorita:"eletromagnetismo", jogo:"Mário Kart"
+        nome: "Rafaela Yoko", apelido: "Rafa", aniversario:"01/11/1999", materia_favorita:"Circuitos Elétricos 1", jogo:"It Takes Two"
     }
      
 ];
