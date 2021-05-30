@@ -33,7 +33,6 @@ app.get('/mensagens',
 );
 app.get('/mensagens/:id/:n/',
     function(req,res){
-        console.log("Oioio");
         let id = req.params.id - 1;
         res.send(mensagens[id][req.params.nn]);
     });
